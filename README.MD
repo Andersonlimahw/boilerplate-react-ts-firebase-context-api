@@ -42,17 +42,43 @@
 
 > Boilerplate : PWA project using vite, react, context Api, jest and firebase
 
+
+### ✨ [Demo](https://lemon-todo-list.vercel.app/)
+
+Look a project using this boilerplate
+
 ## Using
 
-Clone this repository and change origin
-
-Or use has template
+Use has template
 
 // print template
 
-customize pages how do you need!
 
-## Features:
+
+Or
+Clone this repository and change origin
+
+```powershell
+
+git clone <repo>
+
+git remove origin <repo>
+
+git add origin <your_origin>
+
+```
+Customize pages how do you need!
+
+## ✨ Features ✨:
+* Firebase integration
+
+* Login with google login
+
+* Notification listeners
+
+* Context API for state management + reducer
+
+* JEST for unit tests and code coverage collect
 
 
 ## Install
@@ -61,6 +87,28 @@ customize pages how do you need!
 npm install
 ```
 
+## Config
+Change firebase config to your credentials: 
+
+[firebaseConfig documentation](https://firebase.google.com/docs/reference/js/database.md#database_package)
+
+```javascript
+
+  const firebaseConfig = {
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
+  };
+
+```
+
+Allow origin in your firebase console
+[firebase console](https://firebase.google.com/docs/hosting/custom-domain?hl=pt)
+
+
 ## Run
 
 ```sh
@@ -68,10 +116,10 @@ npm run dev
 
 ```
 
-Open link in favorite your browser:
+Open link in your favorite your browser:
 [http://localhost:5173](http://localhost:5173/)
-### ✨ [Demo](ttp://localhost:5173/)
-![](demo-home.png)
+
+![](./public/demo/demo-home.png)
 
 ## Run tests
 
@@ -81,12 +129,14 @@ npm run test
 
 ## Technologies and strategies:
 [vite](https://vitejs.dev/)
+[vite.env](https=//pt.vitejs.dev/guide/env-and-mode)
+[pwa](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
 [react](https://react.dev/learn)
 [context api](https://react.dev/reference/react/useContext)
 [typescript](https://www.typescriptlang.org/docs/)
 [firebase](https://firebase.google.com/docs)
 [jest](https://jestjs.io/docs/getting-started)
-[pwa](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+
 
 ## Author
 

@@ -7,7 +7,7 @@ import { getAnalytics } from "firebase/analytics";
 
 const enviroment = import.meta.env;
 
-// REPLACE for yout firebaseConfig: https://firebase.google.com/docs/reference/js/database.md#database_package
+// REPLACE for your firebaseConfig: https://firebase.google.com/docs/reference/js/database.md#database_package
 const firebaseConfig = {
   apiKey: "AIzaSyCZ_wOBFY9DaJ2SOYv1PtARRGWTsceZS7c",
   authDomain: "lemon-dev-f1a67.firebaseapp.com",
