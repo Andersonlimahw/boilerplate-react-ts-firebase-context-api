@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to react-todo-list-hooks 👋</h1>
+<h1 align="center">Welcome to react boilerplate 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 
@@ -7,7 +7,7 @@
   </a>
 
   <a href="https://twitter.com/anderson.lima.dev" target="_blank">
-    <img alt="Twitter: anderson.lima.dev" src="https://img.shields.io/twitter/follow/anderson.lima.dev.svg?style=social" />
+    <img alt="Twitter: anderson.lima.dev" src="https://img.shields.io/twitter/follow/andersonlimahw.svg?style=social" />
   </a>
 
   <br />
@@ -51,25 +51,19 @@ Look a project using this boilerplate
 
 Use has template
 
-// print template
+![using-template](./public/demo/using-template.png)
 
 
+Or fork:
+![using-template](./public/demo/using-fork.png)
 
-Or
-Clone this repository and change origin
 
-```powershell
-
-git clone <repo>
-
-git remove origin <repo>
-
-git add origin <your_origin>
-
-```
-Customize pages how do you need!
+Customize pages how you need!
 
 ## ✨ Features ✨:
+
+* Created using vite a very fast front-end tooling
+  
 * Firebase integration
 
 * Login with google login
@@ -80,6 +74,9 @@ Customize pages how do you need!
 
 * JEST for unit tests and code coverage collect
 
+
+## Boilerplates
+Boilerplates are pre-made templates or frameworks that contain a foundational structure, configurations, and often basic functionalities for a particular type of project. They're designed to help kick-start development by providing a starting point, allowing developers to avoid repetitive setup tasks and focus on building specific features.
 
 ## Install
 
@@ -136,6 +133,7 @@ npm run test
 [typescript](https://www.typescriptlang.org/docs/)
 [firebase](https://firebase.google.com/docs)
 [jest](https://jestjs.io/docs/getting-started)
+[scss](https://sass-lang.com/)
 
 
 ## Author
