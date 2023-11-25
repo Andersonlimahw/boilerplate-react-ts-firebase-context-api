@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,    
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx", 
+     // jest configs
+     "types": ["jest", "node"],
+     "esModuleInterop": true,
+     "skipLibCheck": true,
+     "lib": ["DOM", "DOM.Iterable", "ESNext"],
+     "moduleResolution": "Node",
+     "target": "ESNext",
+     "module": "ESNext",
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab Component renders a tab with a custom icon 1`] = `
+<DocumentFragment>
+  <div
+    class="tab_item"
+  >
+    <span
+      class="tab_item_icon"
+    >
+      <span>
+        Custom Icon
+      </span>
+    </span>
+    <span
+      class="tab_item_title undefined"
+    >
+      Custom Icon Tab
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tab Component renders a tab with default values 1`] = `
+<DocumentFragment>
+  <div
+    class="tab_item"
+  >
+    <span
+      class="tab_item_icon"
+    >
+      <div />
+    </span>
+    <span
+      class="tab_item_title undefined"
+    >
+      Default Tab
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tab Component renders an active tab 1`] = `
+<DocumentFragment>
+  <div
+    class="tab_item"
+  >
+    <span
+      class="tab_item_icon"
+    >
+      <div />
+    </span>
+    <span
+      class="tab_item_title tab_item_title--active"
+    >
+      Active Tab
+    </span>
+  </div>
+</DocumentFragment>
+`;

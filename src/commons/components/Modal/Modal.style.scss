@@ -1,0 +1,49 @@
+.modal, dialog {
+  background: #333;
+  width: 80%;
+  text-align: center;
+  padding: 1.5em;
+  margin: 1em auto;
+  border: 0;
+  border-top: 5px solid #69c773;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+
+  &::backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 0, 0, 0.9);
+  }
+
+  &_container {
+    padding: 2em;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  &_title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    text-transform: normal;
+    flex: 1;
+  }
+
+  &_content {   
+    padding: 1em 0.5em;
+    border-bottom: solid 2px #000;    
+    flex: 1;
+  }
+
+  &_footer {
+    flex: 1;
+    padding: 0.1em;
+    button {
+      margin: 2em;
+    }
+  }
+}

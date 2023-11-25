@@ -1,0 +1,82 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    vertical-align: baseline;
+    width: 100vw;
+    min-height: 100vh;
+
+    &_banner {
+        background: rgb(18,18,23);
+        background-image: url('/assets/images/login/banner.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;        
+        width: 100vw;
+        min-height: 100vh;
+        height: auto;
+        
+        @media (max-width: 1024px) {
+            background-position: left center;
+            background-size: contain cover;                    
+        }
+         
+    }
+
+    &_title {
+        flex: 1;
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin: 16px auto;
+        line-height: 3.5rem;
+        opacity: 1;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
+    &_subtile {
+        flex: 1;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 16px auto;
+        line-height: 2.5rem;
+    }
+
+    &_overlay {       
+        height: 100vh;
+        width: 100vw;
+        padding-top: 40%;
+        background: linear-gradient(
+                90deg, rgba(0,0,0,0.4) 0%, 
+                rgba(0,0,0,0.69) 49%,
+                rgba(0,0,0,0.4) 100%
+            );
+    }
+
+    &_descriptions {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       position: fixed;       
+       bottom: 90px;
+       width: 100vw;
+    }
+
+    &_action {
+        display: flex;
+        justify-content: center;
+        vertical-align: center;
+        flex: 1;
+        padding: 16px;
+        margin: 8px auto;       
+
+        &_icon {
+            margin-right: 8px;
+            margin-top: 4px;
+        }
+    }
+}

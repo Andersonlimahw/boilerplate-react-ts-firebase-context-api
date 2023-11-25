@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`applies additional props correctly 1`] = `
+<button
+  class="button"
+  id="myButton"
+  type="submit"
+>
+  Click me
+</button>
+`;

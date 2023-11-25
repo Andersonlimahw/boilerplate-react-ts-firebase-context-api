@@ -1,0 +1,26 @@
+.button {
+    background: #f1f1f1;
+    color: #333;
+    font-weight: 500;
+    padding: 8px 16px;
+    height: 48px;
+    border: 1px solid #f1f1f1;
+    opacity: 0.8;
+    border-radius: 0;
+    transition: border-color 0.25s;
+    font-weight: 700;
+    cursor: pointer;
+    :focus {
+        border: none;
+    }
+
+    :hover {
+        opacity: 1;
+        border: 2px solid #44c260;        
+    }   
+   
+    :focus,
+    :focus-visible {
+        outline: 4px auto -webkit-focus-ring-color;
+    }
+}

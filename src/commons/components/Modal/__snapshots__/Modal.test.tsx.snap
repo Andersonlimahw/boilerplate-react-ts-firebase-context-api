@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal matches snapshot 1`] = `
+<DocumentFragment>
+  <dialog
+    class="modal"
+    id="test"
+    open=""
+  >
+    <div
+      class="modal_container"
+    >
+      <div
+        class="modal_title"
+      >
+        <h2>
+          Test Modal
+        </h2>
+      </div>
+      <div
+        class="modal_content"
+      >
+        <p>
+          Test content
+        </p>
+      </div>
+      <div
+        class="modal_footer"
+      >
+        <button
+          class="button"
+          data-testid="modal-cancel-button"
+          type="submit"
+        >
+          close
+        </button>
+      </div>
+    </div>
+  </dialog>
+</DocumentFragment>
+`;

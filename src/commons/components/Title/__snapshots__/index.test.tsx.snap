@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title Component renders a title with a subtitle 1`] = `
+<DocumentFragment>
+  <h2
+    class="title"
+  >
+    Main Title
+  </h2>
+  <h3>
+    Subtitle
+  </h3>
+</DocumentFragment>
+`;

@@ -1,0 +1,12 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    .badge {
+        margin: 8px;
+    }
+}

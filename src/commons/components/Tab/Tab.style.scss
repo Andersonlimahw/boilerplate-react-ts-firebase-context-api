@@ -1,0 +1,24 @@
+.tab_item {
+    flex: 1;
+    min-width: 100px;
+    padding: 1rem;
+    cursor: pointer;
+
+    &_icon {
+        padding: 8px;
+    }
+    
+    &_title {
+        font-size: 1.5rem;
+        font-weight: 500;
+        border-bottom: solid 4px transparent;
+        font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+        text-transform: normal;
+
+        &--active {
+            font-weight: bold;
+            border-bottom: solid 4px #fff;
+            font-style: italic;
+        }
+    }
+}

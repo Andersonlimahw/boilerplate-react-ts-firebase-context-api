@@ -1,0 +1,25 @@
+.badge {
+    display: flex;
+    color: #121212;
+    border-radius: 32px;
+    background: #f1f1f1;
+    padding:  0 8px;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    border: 1px solid #f1f1f1;
+
+    &.default {
+        color: #121212;
+    }
+
+    &.warning {
+        background: #F4B400;
+        border-color: #F4B400;
+    }
+
+    &.danger {
+        background: #DB4437;
+        border-color: #DB4437;
+    }
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Footer component 1`] = `
+<DocumentFragment>
+  <footer>
+    Anderson Lima | 2023
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`renders current year in Footer component 1`] = `
+<DocumentFragment>
+  <footer>
+    Anderson Lima | 2023
+  </footer>
+</DocumentFragment>
+`;

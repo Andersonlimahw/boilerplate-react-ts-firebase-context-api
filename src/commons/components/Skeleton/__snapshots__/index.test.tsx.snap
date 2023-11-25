@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SkeletonItem Component renders a single skeleton item with custom values 1`] = `
+<span
+  class="react-loading-skeleton"
+  style="height: 20px; border-radius: 0.8rem; --base-color: #fff; --highlight-color: #ccc;"
+>
+  ‌
+</span>
+`;
+
+exports[`SkeletonItem Component renders a single skeleton item with custom values, variant circle 1`] = `
+<span
+  class="react-loading-skeleton"
+  style="height: 20px; border-radius: 80%; --base-color: #fff; --highlight-color: #ccc;"
+>
+  ‌
+</span>
+`;
+
+exports[`SkeletonItem Component renders a single skeleton item with default values 1`] = `
+<span
+  class="react-loading-skeleton"
+  style="height: 16px; border-radius: 0.8rem; --base-color: #f1f1f1; --highlight-color: #ccc;"
+>
+  ‌
+</span>
+`;

@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+dev-dist
+
+# configs
+# src/services/firebase/firebaseConfig.ts
+
+## android
+gradle
+android.keystore
+build.gradle
+gradle.properties
+gradlew.bat
+gradlew
+manifest-checksum.txt
+settings.gradle
+store_icon.png
+twa-manifest.json
+app
+android-releases
+*.bin
+*.lock
+*.properties
+
+# Tests reports
+coverage

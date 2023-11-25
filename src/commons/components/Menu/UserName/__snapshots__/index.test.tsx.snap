@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserName Component renders UserName component correctly with loading prop set to false 1`] = `
+<DocumentFragment>
+  <h4>
+    John Doe
+  </h4>
+</DocumentFragment>
+`;
+
+exports[`UserName Component renders UserName component correctly with loading prop set to true 1`] = `
+<DocumentFragment>
+  <div
+    style="width: 128px;"
+  >
+    <span
+      aria-busy="true"
+      aria-live="polite"
+    >
+      <span
+        class="react-loading-skeleton"
+        style="height: 16px; border-radius: 0.8rem; --base-color: #f1f1f1; --highlight-color: #ccc;"
+      >
+        ‌
+      </span>
+      <br />
+    </span>
+  </div>
+</DocumentFragment>
+`;
